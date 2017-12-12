@@ -1,0 +1,23 @@
+{
+    "name": "kento-oka/pi",
+    "type": "library",
+    "description": "",
+    "keywords": [
+        "pi"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kento Oka",
+            "email": "oka.kento0311@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pi\\": "src/"
+        }
+    }
+}
